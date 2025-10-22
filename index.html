@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Diet & Exercise Tracker</title>
+</head>
+<body>
+   <table border="1" width="90%" align="center">
+    <tr>
+        <td colspan="2" align="center" bgcolor="grey">
+            <h1>Weekly Diet & Exercise tracker</h1>
+            <p>Track your diet and exercise progress every week</p>
+        </td>
+    </tr>
+    <tr>
+        <td width="50%" valign="top">
+            <form>
+                <fieldset>
+                    <legend><b>Personal Info</b></legend>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name"><br><br>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age"><br><br>
+                    <label for="gender">Gender:</label><br>
+                    <input type="radio" name="gender" id="male">Male<br>
+                    <input type="radio" name="gender" id="female">Female<br>
+                    </select><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend><b>Diet Tracking</b></legend>
+                    <table border="1">
+                        <tr>
+                            <th>Day</th>
+                            <th>Calories</th>
+                        </tr>
+                        <tr><td>Mon</td><td><input type="number" name="mon_meal"></td></tr>
+                        <tr><td>Tue</td><td><input type="number" name="tue_meal"></td></tr>
+                        <tr><td>Wed</td><td><input type="number" name="wed_meal"></td></tr>
+                        <tr><td>Thur</td><td><input type="number" name="thur_meal"></td></tr>
+                        <tr><td>Fri</td><td><input type="number" name="fri_meal"></td></tr>
+                    </table>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Exercise (Mon-Fri)</legend>
+                    <table border="1">
+                        <tr><td>Mon</td><td><input type="text" name="mon_ex"></td></tr>
+                        <tr><td>Tue</td><td><input type="text" name="tue_ex"></td></tr>
+                        <tr><td>Wed</td><td><input type="text" name="wed_ex"></td></tr>
+                        <tr><td>Thur</td><td><input type="text" name="thur_ex"></td></tr>
+                        <tr><td>Fri</td><td><input type="text" name="fri_ex"></td></tr>
+                    </table>
+                </fieldset>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </td>
+        <td width="50%" valign="top" align="center">
+            <h3>Motivational Fitness Video</h3>
+                <iframe src="https://www.youtube.com/embed/KkmKUASy-p0" allowfullscreen>
+        </td>
+    </tr>
+   </table>
+</body>
+</html>
